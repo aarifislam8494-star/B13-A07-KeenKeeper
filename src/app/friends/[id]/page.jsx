@@ -4,7 +4,7 @@ import React from 'react';
 
 export const metadata = {
   title: "Friend Details | KeenKeeper",
-  description: "This is an application management website",
+  description: "To stay connect with your friends, KeenKeeper is the best solution.",
 };
 
 
@@ -12,7 +12,7 @@ import { FiArchive } from 'react-icons/fi';
 import { MdOutlineDelete, MdOutlineNotificationsPaused } from 'react-icons/md';
 
 const friendsPromise = async () => {
-    const res = await fetch("http://localhost:3000/data.json");
+    const res = await fetch("https://keenkeeper-zeta.vercel.app/data.json");
     const data = await res.json();
     return data;
 }
