@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "KeenKeeper",
-  description: "This is an application management website",
+  description: "To stay connect with your friends, KeenKeeper is the best solution.",
 };
 
 export default function RootLayout({ children }) {

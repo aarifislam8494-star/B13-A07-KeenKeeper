@@ -12,7 +12,7 @@ import { FiArchive } from 'react-icons/fi';
 import { MdOutlineDelete, MdOutlineNotificationsPaused } from 'react-icons/md';
 
 const friendsPromise = async () => {
-    const res = await fetch("https://keenkeeper-zeta.vercel.app/data.json");
+    const res = await fetch("https://b13-a7-seven.vercel.app//data.json");
     const data = await res.json();
     return data;
 }
